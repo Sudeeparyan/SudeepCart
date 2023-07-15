@@ -1,0 +1,7 @@
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.sidenav>li{
+    margin:0px
+}

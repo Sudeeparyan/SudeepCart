@@ -1,0 +1,20 @@
+.electronic{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    row-gap: 35px;
+}
+.electronicCard{
+    width: 300px;
+    padding: 20px;
+    background-color: #232f3e;
+    border-radius: 20px;
+}
+.electronicImg{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}

@@ -1,0 +1,20 @@
+.bsellers{
+    width: 95%;
+    margin: auto;
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    row-gap: 35px;
+}
+/* .BsellerCard{
+    width: 300px;
+    padding: 20px;
+    background-color: #232f3e;
+    border-radius: 20px;
+} */
+.BsellerImg{
+    width: 250px;
+    height: 270px;
+    border-radius: 10px;
+}

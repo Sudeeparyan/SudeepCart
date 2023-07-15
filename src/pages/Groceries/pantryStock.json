@@ -1,0 +1,374 @@
+{
+  "fruits": [
+    {
+      "name": "apple",
+      "stockleft": "56",
+      "totalstock": "120",
+      "price": "120"
+    },
+    {
+      "name": "banana",
+      "stockleft": "11",
+      "totalstock": "25",
+      "price": "30"
+    },
+    {
+      "name": "grapes",
+      "stockleft": "-11",
+      "totalstock": "30",
+      "price": "60"
+    },
+    {
+      "name": "jackfruit",
+      "stockleft": "41",
+      "totalstock": "92",
+      "price": "100"
+    },
+    {
+      "name": "orange",
+      "stockleft": "17",
+      "totalstock": "25",
+      "price": "80"
+    },
+    {
+      "name": "papaya",
+      "stockleft": "17",
+      "totalstock": "35",
+      "price": "30"
+    },
+    {
+      "name": "peer",
+      "stockleft": "39",
+      "totalstock": "55",
+      "price": "70"
+    },
+    {
+      "name": "pomegranate",
+      "stockleft": "29",
+      "totalstock": "65",
+      "price": "100"
+    },
+    {
+      "name": "strawberry",
+      "stockleft": "-5",
+      "totalstock": "14",
+      "price": "200"
+    },
+    {
+      "name": "watermelon",
+      "stockleft": "60",
+      "totalstock": "80",
+      "price": "40"
+    }
+  ],
+  "vegetables": [
+    {
+      "name": "beetroot",
+      "stockleft": "41",
+      "totalstock": "84",
+      "price": "25"
+    },
+    {
+      "name": "brinjal",
+      "stockleft": "63",
+      "totalstock": "87",
+      "price": "15"
+    },
+    {
+      "name": "carrot",
+      "stockleft": "54",
+      "totalstock": "76",
+      "price": "30"
+    },
+    {
+      "name": "chilly",
+      "stockleft": "79",
+      "totalstock": "92",
+      "price": "80"
+    },
+    {
+      "name": "ladysfinger",
+      "stockleft": "39",
+      "totalstock": "64",
+      "price": "40"
+    },
+    {
+      "name": "mushroom",
+      "stockleft": "40",
+      "totalstock": "56",
+      "price": "75"
+    },
+    {
+      "name": "onion",
+      "stockleft": "40",
+      "totalstock": "55",
+      "price": "30"
+    },
+    {
+      "name": "potato",
+      "stockleft": "60",
+      "totalstock": "78",
+      "price": "35"
+    },
+    {
+      "name": "pumpkin",
+      "stockleft": "58",
+      "totalstock": "90",
+      "price": "50"
+    },
+    {
+      "name": "tomato",
+      "stockleft": "74",
+      "totalstock": "89",
+      "price": "20"
+    }
+  ],
+  "dairy": [
+    {
+      "name": "butter",
+      "stockleft": "7",
+      "totalstock": "54",
+      "price": "250"
+    },
+    {
+      "name": "buttermilk",
+      "stockleft": "21",
+      "totalstock": "36",
+      "price": "10"
+    },
+    {
+      "name": "cheese",
+      "stockleft": "44",
+      "totalstock": "76",
+      "price": "300"
+    },
+    {
+      "name": "curd",
+      "stockleft": "29",
+      "totalstock": "56",
+      "price": "15"
+    },
+    {
+      "name": "ghee",
+      "stockleft": "31",
+      "totalstock": "40",
+      "price": "50"
+    },
+    {
+      "name": "icecream",
+      "stockleft": "40",
+      "totalstock": "65",
+      "price": "40"
+    },
+    {
+      "name": "milk",
+      "stockleft": "90",
+      "totalstock": "110",
+      "price": "25"
+    },
+    {
+      "name": "mozarellacheese",
+      "stockleft": "60",
+      "totalstock": "78",
+      "price": "350"
+    },
+    {
+      "name": "panneer",
+      "stockleft": "83",
+      "totalstock": "95",
+      "price": "60"
+    },
+    {
+      "name": "yoghurt",
+      "stockleft": "76",
+      "totalstock": "89",
+      "price": "30"
+    }
+  ],
+  "beverages": [
+    {
+      "name": "beer",
+      "stockleft": "56",
+      "totalstock": "104",
+      "price": "250"
+    },
+    {
+      "name": "coffee",
+      "stockleft": "76",
+      "totalstock": "87",
+      "price": "15"
+    },
+    {
+      "name": "coke",
+      "stockleft": "93",
+      "totalstock": "140",
+      "price": "40"
+    },
+    {
+      "name": "greentea",
+      "stockleft": "79",
+      "totalstock": "98",
+      "price": "30"
+    },
+    {
+      "name": "lassi",
+      "stockleft": "105",
+      "totalstock": "110",
+      "price": "30"
+    },
+    {
+      "name": "milkshake",
+      "stockleft": "40",
+      "totalstock": "56",
+      "price": "50"
+    },
+    {
+      "name": "orangejuice",
+      "stockleft": "70",
+      "totalstock": "90",
+      "price": "40"
+    },
+    {
+      "name": "tea",
+      "stockleft": "60",
+      "totalstock": "118",
+      "price": "20"
+    },
+    {
+      "name": "water",
+      "stockleft": "80",
+      "totalstock": "120",
+      "price": "20"
+    },
+    {
+      "name": "wine",
+      "stockleft": "76",
+      "totalstock": "89",
+      "price": "700"
+    }
+  ],
+  "pasteries": [
+    {
+      "name": "bread",
+      "stockleft": "68",
+      "totalstock": "94",
+      "price": "25"
+    },
+    {
+      "name": "strawberrycake",
+      "stockleft": "53",
+      "totalstock": "87",
+      "price": "50"
+    },
+    {
+      "name": "chocolatecake",
+      "stockleft": "54",
+      "totalstock": "76",
+      "price": "60"
+    },
+    {
+      "name": "croissant",
+      "stockleft": "76",
+      "totalstock": "92",
+      "price": "100"
+    },
+    {
+      "name": "cupcake",
+      "stockleft": "40",
+      "totalstock": "73",
+      "price": "30"
+    },
+    {
+      "name": "donut",
+      "stockleft": "40",
+      "totalstock": "56",
+      "price": "40"
+    },
+    {
+      "name": "pancake",
+      "stockleft": "40",
+      "totalstock": "55",
+      "price": "30"
+    },
+    {
+      "name": "pie",
+      "stockleft": "60",
+      "totalstock": "78",
+      "price": "100"
+    },
+    {
+      "name": "samosa",
+      "stockleft": "58",
+      "totalstock": "90",
+      "price": "15"
+    },
+    {
+      "name": "whiteforestcake",
+      "stockleft": "76",
+      "totalstock": "89",
+      "price": "40"
+    }
+  ],
+  "snacks": [
+    {
+      "name": "bananachips",
+      "stockleft": "39",
+      "totalstock": "84",
+      "price": "40"
+    },
+    {
+      "name": "burger",
+      "stockleft": "68",
+      "totalstock": "87",
+      "price": "60"
+    },
+    {
+      "name": "cookies",
+      "stockleft": "54",
+      "totalstock": "76",
+      "price": "40"
+    },
+    {
+      "name": "frenchfries",
+      "stockleft": "80",
+      "totalstock": "92",
+      "price": "60"
+    },
+    {
+      "name": "masalapeanuts",
+      "stockleft": "40",
+      "totalstock": "64",
+      "price": "20"
+    },
+    {
+      "name": "mixednuts",
+      "stockleft": "40",
+      "totalstock": "56",
+      "price": "30"
+    },
+    {
+      "name": "popcorn",
+      "stockleft": "40",
+      "totalstock": "55",
+      "price": "40"
+    },
+    {
+      "name": "potatochips",
+      "stockleft": "60",
+      "totalstock": "118",
+      "price": "40"
+    },
+    {
+      "name": "puff",
+      "stockleft": "58",
+      "totalstock": "90",
+      "price": "50"
+    },
+    {
+      "name": "waffles",
+      "stockleft": "76",
+      "totalstock": "89",
+      "price": "60"
+    }
+  ]
+}

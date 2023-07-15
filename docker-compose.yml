@@ -1,0 +1,11 @@
+version: "1.0"
+services: 
+  scart:
+    build: ./
+    container_name: "scart-v"
+    ports:
+      - '3500:3000'
+    volumes:
+      - ./node_modules:/node_modules
+    stdin_open: true
+    tty: true

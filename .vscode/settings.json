@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "file:///c%3A/Users/sudeeparyan.g/.vscode/extensions/atlassian.atlascode-3.0.3/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "kubernetes://schema/v1%40service": "file:///c%3A/Users/sudeeparyan.g/Desktop/s-cart/kubernetes/scartfinal.yaml"
+    }
+}

@@ -1,0 +1,23 @@
+.mobile {
+    display: flex;
+    padding: 2%;
+}
+.mobileCard{
+    background-color:#232f3e;
+    padding: 1%;
+    border-radius: 20px;
+}
+.modal-content{
+    background-color: #232f3e;
+}
+
+.mobileImg{
+    width: 100%;
+    border-radius: 20px;
+}
+.mobileHeading{
+    color: white;
+}
+.modal-body{
+    background-color:rgb(54 52 52);
+}

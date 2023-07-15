@@ -1,0 +1,18 @@
+.laptop{
+    display: flex;
+    overflow-x: scroll;
+    column-gap: 4%;
+}
+.laptop::-webkit-scrollbar {
+    display: none;
+  }
+.laptopCard{
+    /* background-color:#232f3e; */
+    padding: 2%;
+    border-radius: 20px;
+}
+.laptopImg{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+}

@@ -1,0 +1,31 @@
+.dealcomponent{
+    font-family: bold;
+}
+.component{
+    width:200px;
+    height:200px;
+    float:left;
+    margin-top:10px;
+    margin-left: 50px;    
+}
+.product-img{
+    width:200px;
+    height:200px;
+}
+
+.itemCardPantary{
+    display: flex;
+    column-gap: 3%;
+    height: 450px;
+    overflow-x: scroll;
+}
+.itemCardPantary::-webkit-scrollbar {
+    display: none;
+  }
+li>div{
+    padding: 25px 20px;
+}
+li>div:hover{
+    cursor: pointer;
+    background-color: rgb(6, 61, 79);
+}

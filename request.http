@@ -1,0 +1,6 @@
+POST http://localhost:5000/ask 
+content-type: application/json
+
+{
+    "prompt":"hello"
+}

@@ -1,0 +1,6 @@
+scartv1:
+  uri: "scart://scart:30500"
+
+serviceMonitor:
+  additionalLabels:
+    release: prometheus

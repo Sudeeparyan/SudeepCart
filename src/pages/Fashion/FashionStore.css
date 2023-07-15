@@ -1,0 +1,17 @@
+.Fashion{
+    display: flex;
+    column-gap: 4%;
+    overflow-x: scroll;
+    
+}
+.Fashion::-webkit-scrollbar {
+    display: none;
+  }
+.fashionImg{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+.fashionCard{
+    /* background-color:rgb(6, 61, 79); */
+}

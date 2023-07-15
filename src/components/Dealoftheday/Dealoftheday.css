@@ -1,0 +1,15 @@
+
+.product-img{
+    border-radius:10px;
+}
+#explore{
+    position: relative;
+    top: 25px;
+    font-size: xx-large;
+
+}
+.deals{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+}

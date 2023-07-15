@@ -1,0 +1,124 @@
+.chatbot {
+  position: fixed;
+  right: 5px;
+  bottom: 30px;
+}
+.chatform {
+  position: relative;
+  height: 500px;
+  width: 400px;
+  background-color: #232f3e;
+  border-radius: 20px;
+  padding: 6%;
+  transition: 0.5s;
+  z-index: 1;
+  /* border: 5px solid rgb(75, 214, 249) ; */
+  /* border-width: 3px ;
+  border-style: white; */
+}
+.chatlines {
+  position: absolute;
+  inset: 0;
+  /* background-color: #000; */
+  overflow: hidden;
+
+}
+.chatlines::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 100px;
+  background: linear-gradient(
+    transparent,
+    #45f3ff,
+    #45f3ff,
+    #45f3ff,
+    transparent
+  );
+  animation: animate 2s linear infinite;
+}
+@keyframes animate {
+  0% {
+    transform: translate(-50%, 50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, 50%) rotate(360deg);
+  }
+}
+/* .chatlines::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background-color: #292929;
+} */
+
+.inputMessage {
+  width: 290px;
+  color: black;
+}
+
+#close {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+.chatimg {
+  position: fixed;
+  height: 120px;
+  width: 120px;
+  right: 5px;
+  background-color: black;
+  border-radius: 100px;
+  bottom: 10px;
+}
+
+.send-message {
+  position: absolute;
+  bottom: 5%;
+  display: flex;
+  /* max-width: 1200px; */
+}
+.chatResponse {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+}
+
+.chatmessages {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 350px;
+  overflow-y: scroll;
+  gap: 10px;
+}
+.chatmessages::-webkit-scrollbar {
+  display: none;
+}
+.bot {
+  /* position: relative; */
+  background-color: rgb(136, 221, 245);
+  /* width: fit-content; */
+  color: black;
+  justify-content: flex-start;
+}
+.user {
+  background-color: white;
+  color: black;
+  /* position: relative; */
+  /* left: 90%; */
+  /* width: fit-content; */
+  justify-content: flex-end;
+}
+.botimg {
+  height: 50px;
+  width: 50px;
+}
+.profimg {
+  height: 50px;
+  width: 75px;
+}
+
