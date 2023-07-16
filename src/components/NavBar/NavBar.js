@@ -13,14 +13,21 @@ function NavBar({ size }) {
         <div class="container-fluid">
           <div class="navbar-header">
             {/* <li class="active"><a href="/">S-cart</a></li> */}
-            <a data-testid="scart" class="navbar-brand" href="/">
+            <NavLink to="/">
+              
+            <div data-testid="scart" class="navbar-brand">
               S-cart
-            </a>
-            <img src={logo} href="/" height="50px" width="200px" alt="S-cart" />
+            </div>
+            </NavLink>
+            <NavLink to="/">
+              <img src={logo} href="/" height="50px" width="200px" alt="S-cart" />
+          </NavLink>
           </div>
           <ul class="nav navbar-nav">
             <li class="active">
-              <a data-testid="home" href="/">Home</a>
+            <NavLink to="/">
+              <div data-testid="home">Home</div>
+              </NavLink>
             </li>
             {/* <li><a href="#">Page 1</a></li>
       <li><a href="#">Page 2</a></li> */}
