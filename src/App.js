@@ -31,6 +31,7 @@ import Books from "./components/Categories/Books";
 import "./index.css";
 import WeatherApp from "./pages/More/WeatherApp";
 import Planner from "./pages/More/Planner";
+import Movies from "./pages/More/Movies";
 import Login from "./pages/Login/Login";
 import Profile from "./pages/Profile/Profile";
 import { AuthProvider, useAuth } from "./auth";
@@ -192,6 +193,7 @@ function App() {
           <Route index element={<WeatherApp />} />
           <Route path="weatherapp" element={<WeatherApp />}></Route>
           <Route path="planner" element={<Planner />}></Route>
+          <Route path="movies" element={<Movies/>} ></Route>
         </Route>
       </Routes>
       {warning && (
